@@ -1,0 +1,45 @@
+{
+    "button": [
+        {
+            "name": "音乐宝库",
+            "type": "view",
+            "url": "http://yujiage2.applinzi.com/09music.php"            
+
+        }, 
+        {
+            "name": "今日推荐", 
+            "sub_button": [
+                {
+                    "type": "click", 
+                    "name": "一首", 
+                    "key": "music1"
+                },
+                {
+                    "type": "click", 
+                    "name": "两首", 
+                    "key": "music2"
+                },
+                {
+                    "type": "click", 
+                    "name": "三首", 
+                    "key": "music3"
+                },
+                {
+                    "type": "click", 
+                    "name": "四首", 
+                    "key": "music4"
+                },
+                {
+                    "type": "click", 
+                    "name": "五首", 
+                    "key": "music5"
+                }
+            ]
+        }, 
+        {
+            "name": "今日热评", 
+            "type": "click", 
+            "key": "comment"
+        }
+    ]
+}
